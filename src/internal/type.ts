@@ -1,7 +1,7 @@
 import type * as http from 'node:http'
 import type { Readable as ReadableStream } from 'node:stream'
 
-import type { MetadataItem } from '../minio'
+import type { MetadataItem } from '../minio.d.ts'
 
 export type Binary = string | Buffer
 
